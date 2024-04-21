@@ -73,6 +73,6 @@ if __name__ == "__main__":
             cur = con.cursor()
             cur.execute(sql)
             print(cur.fetchall())
-            
+            cur.close
     else:
         create_db()
